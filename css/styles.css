@@ -161,13 +161,13 @@ sup {
 }
 
 a {
-  color: #e6a756;
+  color: #4c2791;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
   color: #d1831f;
-  text-decoration: underline;
+
 }
 
 a:not([href]):not([class]) {
@@ -598,11 +598,66 @@ pre code {
 }
 
 .btn-wsp:hover{
-text-decoration: none;
-color: #0df053;
-background: #fff;
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+  }
+
+.icon-instagram{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  bottom: 20px;
+  right: 20px;
+  background: #4c2791;
+  border-radius: 35px;
+  color:#fff;
+  text-align: center;
+  font-size: 25px;
+  z-index: 100;
 }
 
+.icon-instagram:hover{
+  text-decoration: none;
+  color: #4c2791;
+  background: #fff;
+  }
+
+
+.icon-facebook{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  bottom: 20px;
+  right: 20px;
+  background: #4c2791;
+  border-radius: 35px;
+  color:#fff;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+}
+
+.icon-facebook:hover{
+  text-decoration: none;
+  color: #4c2791;
+  background: #fff;
+  }
+
+.icon-phone:hover{
+  text-decoration: none;
+  color: #fff;
+  }
+
+  .icon-mail:hover{
+    text-decoration: none;
+    color: #fff;
+    }
+
+
+#footer-text{
+  font-size: 18px;
+}
 
 #Menu{
   display: flex;
@@ -1263,6 +1318,7 @@ background: #fff;
     margin-left: 91.6666666667%;
   }
 }
+
 @media (min-width: 992px) {
   .col-lg {
     flex-basis: 0;
@@ -2477,8 +2533,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #9774b1;
-  border-color: #9774b1;
+  background-color: #f5e181;
+  border-color: #f5e181;
 }
 .btn-primary:hover {
   color: #212529;
@@ -5562,7 +5618,7 @@ a.close.disabled {
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+
   justify-content: flex-end;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
@@ -7720,7 +7776,7 @@ button.bg-dark:focus {
 
 .pb-1,
 .py-1 {
-  padding-bottom: 0.25rem !important;
+  padding-bottom: 0.45rem !important;
 }
 
 .pl-1,
@@ -7791,7 +7847,7 @@ button.bg-dark:focus {
 }
 
 .pb-4,
-.py-4 {
+ {
   padding-bottom: 1.5rem !important;
 }
 
@@ -10130,7 +10186,7 @@ p {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #f5e181;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
@@ -10139,6 +10195,13 @@ p {
 #mainNav .navbar-nav .nav-item.active .nav-link {
   color: #f5e181;
 }
+
+#dato{
+  font-size: 25px;
+  font-style: italic;
+  color: #4c275e;
+}
+
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
@@ -10266,7 +10329,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color:#f4e08475;
+  background-color: #ffffff7d;
 }
 .cta .cta-inner {
   position: relative;
@@ -10287,7 +10350,19 @@ p {
 }
 
 .footer {
-  background-color: #9774b1b8;
+  background-color: #f5e181a6;
+  color: #080403;
+  font-size: 20px;
+}
+
+#logo-footer{
+  width: 230px;
+
+}
+
+#pclaf{
+  background-color: #000;
+  color: var(--light);
 }
 
 .intro {
@@ -10352,6 +10427,7 @@ p {
     font-size: 1.1rem;
   }
 }
+
 
 .address strong {
   font-size: 1.2rem;
