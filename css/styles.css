@@ -10186,14 +10186,14 @@ p {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
-  color: #f5e181;
+
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #f5e181;
+
 }
 
 #dato{
@@ -10210,7 +10210,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+  
   }
 }
 
@@ -10355,6 +10355,30 @@ p {
   background-color: #f5e181a6;
   color: #080403;
   font-size: 20px;
+}
+
+#cta-2{
+ background-color: #ffffff00;
+}
+
+#article{
+  color: #343a40;
+}
+
+#article:hover{
+  color: #670ba8;
+}
+
+#notebook{
+  margin-bottom: 1rem;
+}
+
+#body-art, #body-art-name {
+  font-size: 18px;
+}
+
+#body-art-name{
+  font-weight: bold;
 }
 
 #adolescentes{
